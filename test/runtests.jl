@@ -3,11 +3,8 @@ using Primes
 using FFTW
 
 import OpenCL.cl
-
 import CLFFT
 const clfft = CLFFT
-
-#macro throws_pred(ex) FactCheck.throws_pred(ex) end
 
 const TOLERANCE = 1e-3
 
